@@ -14,10 +14,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>MVC Persona</title>
+        <title>MVC registro</title>
     </head>
     <body>
-        <h1>Registro de vacunas</h1>
+        <h1 style="center">Registro de vacunas</h1>
         <h2>Gestionar las vacunas suministradas a estudiantes de primaria</h2>
         <a href="MainServlet?op=nuevo">NUEVO</a>
         <br><br>
@@ -25,8 +25,8 @@
             <tr>
                 <th>id</th>
                 <th>nombres</th>
-                <th>peso</th>
-                <th>talla</th>
+                <th>peso (kg)</th>
+                <th>talla (cm)</th>
                 <th>vacuna</th>
                 <th></th>
                 <th></th>

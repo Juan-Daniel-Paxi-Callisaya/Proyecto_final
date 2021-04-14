@@ -14,25 +14,26 @@
         <form action="MainServlet" method="post">
             <table>
                 <tr>
-                    <td>ID</td>
+                    <td>ID:</td>
                     <td><input type="text" name="id" value="<%= reg.getId()%>" size="2" readonly></td>
                 </tr>
                 <tr>
-                    <td> Nombres</td>
+                    <td> Nombres:</td>
                     <td><input type="text" name="nombres" value="<%= reg.getNombres()%>"></td>
                 </tr>
                 <tr>
-                    <td> Peso</td>
-                    <td><input type="text" name="peso" value="<%= reg.getPeso()%>"></td>
+                    <td> Peso:</td>
+                    <td><input type="text" name="peso" value="<%= reg.getPeso()%>"> kg</td>
                 </tr>
                 <tr>
-                    <td> Talla</td>
-                    <td><input type="text" name="talla" value="<%= reg.getTalla()%>"></td>
+                    <td> Talla:</td>
+                    <td><input type="text" name="talla" value="<%= reg.getTalla()%>"> cm</td>
                 </tr>
                 <tr>
-                    <td>Vacuna</td> 
-                    <td><input type="checkbox" name="vacuna" value="si">si
-                        <input type="checkbox" name="vacuna" value="no" />no
+                    <td>Vacuna:</td> 
+                
+                    <td> <br><input type="checkbox" name="vacuna" value="si">si
+                         <br><input type="checkbox" name="vacuna" value="no" />no
                     </td>
                 </tr>    
                 <tr>
